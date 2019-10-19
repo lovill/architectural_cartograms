@@ -1,7 +1,7 @@
 # Architectural Cartograms
 **_Convert architectural projections into animated cartograms_**
 
-<img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/Gif-2019-07-19-16-07-51.gif" width="400">
+<img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/demo_.gif" width="400">
 
 ### Prerequisites
 
@@ -40,9 +40,8 @@ Move/add/remove/rotate manually the first layer units (highlighted in red) and/o
 
 ### Examples
 
-*image_caption*
-<img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/demo_.gif" width="400">
+<img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/Gif-2019-07-19-16-07-51.gif" width="400">
 *image_caption*
 
-Varying unit rotation
 <img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/elev_demo.gif" width="400">
+*image_caption*
