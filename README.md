@@ -24,12 +24,10 @@ Download `model.gh`, `UKCoD_Robotics Lab_LV.3dm` and the `py` directory and keep
 Move/add/remove/rotate manually the first layer units (highlighted in red) and/or change all relevant input parameters as described in GH file. 
 
 ### Examples
-
 <img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/Gif-2019-07-19-16-07-51.gif" width="400">
-
 *image_caption*
-
-<img src="https://github.com/lovill/uk_generative_stacking/blob/master/images/05/Gif-2019-46-08-23-46-59.gif" width="400">
+<img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/demo_gif" width="400">
+*image_caption*
 
 Varying unit rotation
 <img src="https://github.com/lovill/uk_generative_stacking/blob/master/images/04c/Gif-2019-34-08-23-34-51.gif" width="400">
