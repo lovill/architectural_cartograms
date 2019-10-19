@@ -12,7 +12,7 @@
 
 ### Files
 
-- `model.gh` use this file to control deformation of 2D elements by material and record deformation process through screenshots.
+- `archi_cartogram.gh` use this file to control deformation of 2D elements by material and record deformation process through screenshots.
 
 - `base.3dm`: build off of this 3dm file as layer structure is already setup. 
 
