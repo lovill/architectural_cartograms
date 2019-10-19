@@ -36,7 +36,7 @@ In the base.3dm file there is already a layer structure that you can edit for yo
 <img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/rhino_layers2.PNG" width="250"> <img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/material_sliders.PNG" width="250"> 
 
 #### Load geometry in gh
-Once the geometry is setup and divided in the different layers hit the `RESET!` button to update the series of Python nodes that automatically load all geometry by material and assign the related embodied energy multiplier values. Your polylines will be filled with an orange color, at their center you should see the value "1" in black and below the name of assigned material in grey. Check that all polylines have been filled in orange, if there are "white spots" that means some geometry is either missing or has not been assigned to any layer. 
+Once the geometry is setup and divided in the different layers go the gh file and update the panel `GROUP LAYER NAME` with the your master layer name in case you created a new master layer or changed one of the existing two. Then hit the `RESET!` button to update the series of Python nodes that automatically load all geometry by material and assign the related embodied energy multiplier values. Your polylines will be filled with an orange color, at their center you should see the value "1" in black and below the name of assigned material in grey. Check that all polylines have been filled in orange, if there are "white spots" that means some geometry is either missing or has not been assigned to any layer. 
 
 <img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/layer_reset_button.PNG" width="400">
 "reset button image"
