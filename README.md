@@ -51,8 +51,8 @@ Once the geometry is setup and divided in the different layers hit the `RESET!` 
 Once geometry is all setup you can navigate to the file's main controllers which include the embodied energy multiplier sliders per material, a button to run Kangaroo and a series of controllers for automatic screenshot capturing. 
 
 <img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/main_control_sliders.PNG" width="400">
-"main controllers"
-&nbsp;
+"main controllers"\
+
 
 Now follow these steps:
 1. Run the Kangaroo simulation by hitting the `runSim` button. Now Kangaroo is active.
