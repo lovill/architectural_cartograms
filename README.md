@@ -27,10 +27,9 @@ To setup your rhino file create your 2D drawing with only closed polylines (the 
 #### Layers by material
 In the base.3dm file there is already a layer structure that you can edit for your own purposes. Material layers (for now named with placeholders "m1", "m2", "m3"... ) are grouped under a master layer. In the file you will see two master layers `MATERIALS_elevation` and `MATERIALS_perspective` that were used for testing. Use either of these to get started. 
 
-<img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/rhino_layers.PNG" width="400">
+<img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/rhino_layers2.PNG" width="250">
 
 
-`archi_cartogram.gh` and `base.3dm` and the `py` directory and keep all items in a local directory of your choice. Run Rhino file, launch Grasshopper, load GH file and explore procedural stacking.
 
 
 
