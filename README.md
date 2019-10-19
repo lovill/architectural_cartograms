@@ -27,7 +27,7 @@ Move/add/remove/rotate manually the first layer units (highlighted in red) and/o
 
 <img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/Gif-2019-07-19-16-07-51.gif" width="400">
 
-{% include image.html url="https://github.com/lovill/architectural_cartograms/blob/develop/media/Gif-2019-07-19-16-07-51.gif" description="My cat, Robert Downey Jr." %}
+*image_caption*
 
 <img src="https://github.com/lovill/uk_generative_stacking/blob/master/images/05/Gif-2019-46-08-23-46-59.gif" width="400">
 
