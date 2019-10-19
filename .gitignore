@@ -118,3 +118,8 @@ frames
 
 # Temp folder containing old versions
 [Tt]emp
+
+.gitignore
+tests
+.md
+# media
