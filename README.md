@@ -51,7 +51,7 @@ Once the geometry is setup and divided in the different layers hit the `RESET!` 
 Once geometry is all setup you can navigate to the file's main controllers which include the embodied energy multiplier sliders per material, a button to run Kangaroo and a series of controllers for automatic screenshot capturing. 
 
 <img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/main_control_sliders.PNG" width="400">
-"main controllers"\
+"main controllers" <br />
 
 
 Now follow these steps:
@@ -79,7 +79,7 @@ To do so before going through step 1 and 2:
 ### Examples
 
 <img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/Gif-2019-07-19-16-07-51.gif" width="400">
-*image_caption*
+*Deformation of 2D perspective*
 
 <img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/elev_demo.gif" width="400">
-*image_caption*
+*Deformation of elevation drawing*
