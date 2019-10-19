@@ -16,9 +16,13 @@
 
 - `base.3dm`: build off of this 3dm file as layer structure is already setup. 
 
-### Get started & Intro
+
+### Get started & method description
 Download this repository by clicking on the green button on the rigth side of this page "Clone or download". The only files that you will need are the .3dm and .gh ones. 
 This adapated cartogram method works only with **2D closed polyline** geometry. Make sure that the drawings you are making use only closed polylines and avoid any misaligned polyline vertices or badly overlapping edges. The method uses a physics-based approach to deform each polyline to reach target areas. There are several other constraints in place to minimize wierd deformations in place but you may disergard those parts of the .gh graph.
+
+
+### Implementation
 
 #### 2D drawing setup
 To setup your rhino file create your 2D drawing with only closed polylines (the `curve boolean` tool in Rhino is a good method to make sure the drawing is made of closed polylines) and assign each polyline to a material layer (see following section).
@@ -26,7 +30,7 @@ To setup your rhino file create your 2D drawing with only closed polylines (the 
 #### Set anchors
 In case needed, you can set `anchors`, points that need to be located on top of certain polyline vertices to lock them in place. No deformation will ever move these around. You can do so by selecting the layer `anchors_` and placing points on the desired vertices. These will be loaded automatically by the gh file and visualized with red dots. 
 
-<img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/rhino_layers2.PNG" width="250"> <img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/material_sliders.PNG" width="250"> 
+<img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/anchor.PNG" width="400">
 "anchors"
 
 #### Layers by material
@@ -37,17 +41,18 @@ In the base.3dm file there is already a layer structure that you can edit for yo
 #### Load geometry in gh
 Once the geometry is setup and divided in the different layers hit the `RESET!` button to update the series of Python nodes that automatically load all geometry by material and assign the related embodied energy multiplier values. Your polylines will be filled with an orange color, at their center you should see the value "1" in black and below the name of assigned material in grey. Check that all polylines have been filled in orange, if there are "white spots" that means some geometry is either missing or has not been assigned to any layer. 
 
-<img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/layer_reset_button.PNG" width="250">
+<img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/layer_reset_button.PNG" width="400">
 "reset button image"
 
 <img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/img_preview.PNG" width="250">
 "image preview"
 
-#### Run the deformation
+#### Run the deformation sim
 Once geometry is all setup you can navigate to the file's main controllers which include the embodied energy multiplier sliders per material, a button to run Kangaroo and a series of controllers for automatic screenshot capturing. 
 
-<img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/main_control_sliders.PNG" width="250">
+<img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/main_control_sliders.PNG" width="400">
 "main controllers"
+&nbsp;
 
 Now follow these steps:
 1. Run the Kangaroo simulation by hitting the `runSim` button. Now Kangaroo is active.
@@ -56,10 +61,10 @@ Now follow these steps:
 This is a delicate process as the deformation could fail or get very wierd if there are issues with the geometry (see points above), if the multipliers are too high (or too low), or because of other causes. These steps will have to be repeated iteratively by changing order of material deformation or redrawing certain parts of the drawing. Because of this you can easily reset every multiplier slider to the value of 1.0 (no deformation) by hitting the `reset to 1.0` button.
 Advise: start with few geometry, test the deformations, go back to Rhino, add more geometry, test the deformation etc. 
 
-#### Dave out frames to record deformation process
+#### Save out frames to record deformation process
 Once you reached a desired deformation state you can record the deformation process through automated screenshot capturing. 
 
-<img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/screenshot_controls.PNG" width="250">
+<img src="https://github.com/lovill/architectural_cartograms/blob/develop/media/screenshot_controls.PNG" width="400">
 "screenshot capturing controllers"
 
 To do so before going through step 1 and 2: 
