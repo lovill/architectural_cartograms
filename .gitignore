@@ -112,6 +112,7 @@ dmypy.json
 # This is for rhino files
 *.3dmbak
 *.3dm.rhl
+*.rhl
 
 # Imgs folder containing screenshots
 frames
