@@ -117,6 +117,9 @@ dmypy.json
 # Imgs folder containing screenshots
 frames
 
+# Imgs folder containing screenshots
+archive
+
 # Temp folder containing old versions
 [Tt]emp
 
